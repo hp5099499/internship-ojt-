@@ -1,0 +1,6 @@
+﻿public class Demo{
+	public Static Void main(String[] args) {
+		
+		System.Out.Println("A")
+}
+}
