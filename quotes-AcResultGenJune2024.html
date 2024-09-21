@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=7'>
+    <meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Expires' content='0'>
+    <meta http-equiv='refresh' content='300'>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link rel='shortcut icon' href='img/icons/favicon.ico' type="image/x-icon">
+    <link rel='stylesheet' href='css/leaflet.css' integrity='sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=' crossorigin='' />
+    <script src='js/leaflet.js' integrity='sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=' crossorigin=''></script>
+    <style>
+        #elector_geotagging {
+            background-color: #fff;
+        }
+.leaflet-bottom { display: none; }
+        /*.leaflet-control {
+            display: none;
+        }*/
+    </style>
+    <title>Election</title>
+
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C8JDA-BHWH8-9MQ5M-HKZCP-GH7SB",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"C8JDA-BHWH8-9MQ5M-HKZCP-GH7SB",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="hnowendioydugztb6joq-f-cd2a2e3b9-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"37","ak.cp":"1109753","ak.ai":parseInt("537121",10),"ak.ol":"0","ak.cr":10,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"114f847","ak.r":26810,"ak.a2":e,"ak.m":"b","ak.n":"ff","ak.bpcip":"59.93.98.0","ak.cport":61162,"ak.gh":"104.118.7.63","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1717695069","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==gJCOMrr08ZesU4Sl9uTEeYQgUeQ9EPh4yzmO/5ItaQRgvT3F+h701v9Xz2jDJ/WkUUgVOVd7/aqNAflSrJBlOInahXO78VtHIrNwmxZn82j3eDHucTFWctXDRM+Es5uBgxq8rJN2ELlKRpgWckAVKYu++rDzLa/+ATcXUQf7sFCnOO1MhJ5y1t3Oo1JiKNyeLOSPAlgl/uJsFg6yGgHKyo9K7ubRHDr439BlQdWwbcYKvm3s/bBESN2PNRkfSaS7s9b1ot3APqiWgf2gBeIRc3wNoxEIPJeEvG+bTb3CdleKaNVwnXe7QaV2hvxZ005y9YO/kq9FaOSxnwTeysY/0zFnilesHe86I1HuXP9Yxi2jDLWBuL4f9NIGTJvB1fMpHvEdsNbYSR7SVfS6CPPdlMbu8g666Zo5F0nPNY1YeqU=","ak.pv":"86","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body>
+
+
+    <header class="header">
+        <div class="logo-search">
+            <div class="mob-btn"><img src="img/icons/menu.png" alt=""></div>
+            <div class="logo"><a href='index.htm'><img src="img/eci-logo.png" alt=""></a></div>
+            <div class="lft-menu">
+                <div class="menu-close">X</div>
+                <div class="menu-logo"><a href="index.htm"><img src="img/eci-logo.png" alt=""></a></div>
+                <ul>
+                    <li><a href="index.htm"><span><img src="img/icons/home.png" alt=""></span> Home</a></li>
+                    <li><a href="./hi/index.htm"><span><img src="img/icons/language.png" alt=""></span> Hindi</a></li>
+                    <li><a href='#' onClick='window.location.href=window.location.href'><span><img src="img/icons/refresh.png" alt=""></span> Refresh</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="dis-info">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center ">
+                <h6 class="mb-0 mx-2">Disclaimer:</h6>
+                <p class="mb-0"> ECI is displaying the information as being filled in the system by the Returning Officers from their respective Counting Centres.The final data for each AC/PC will be shared in Form-20.</p>
+            </div>
+        </div>
+    </div><!-- End of dis-info Div -->
+    <main class="inner-content">
+        <div class="page-title">
+            <h1>General Election to Assembly Constituencies: Trends & Results June-2024</h1>
+            <h2><span> <strong> </strong> </span></h2>
+        </div>
+         <div class="container-fluid">
+     <div class="row flex-box">
+
+                  <div class="item">
+             <div class="asmb-box asmb-teal">
+                                      <a href="partywiseresult-S01.htm">
+                                                  <h2 class="state-title">Andhra Pradesh</h2>
+                         <ul>
+                             <li>
+                                 <span>Assembly Constituencies</span>
+                                 <span>175</span>
+                             </li>
+                         </ul>
+                         <div class="partyWrap">
+                             <h6>* Status of Top Five Parties</h6>
+                             <div class="parties-list">
+                                 <div class="pr-head">
+                                     <div>Parties</div>
+                                     <div>Leading<i>/</i>Won</div>
+                                 </div>
+
+                                                                                                                                    <div class="pr-row">
+                                     <div>TDP</div>
+                                     <div>135</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>JnP</div>
+                                     <div>21</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>YSRCP</div>
+                                     <div>11</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>BJP</div>
+                                     <div>8</div>
+                                 </div>
+                                                                                                                                    <div class="detail-btn">
+
+                                     <a href="partywiseresult-S01.htm">Details <i>></i></a>
+
+                                 </div>
+                                                              </div>
+                         </div>
+                     </a>
+             </div>
+         </div>
+                  <div class="item">
+             <div class="asmb-box asmb-maroon">
+                                      <a href="partywiseresult-S18.htm">
+                                                  <h2 class="state-title">Odisha</h2>
+                         <ul>
+                             <li>
+                                 <span>Assembly Constituencies</span>
+                                 <span>147</span>
+                             </li>
+                         </ul>
+                         <div class="partyWrap">
+                             <h6>* Status of Top Five Parties</h6>
+                             <div class="parties-list">
+                                 <div class="pr-head">
+                                     <div>Parties</div>
+                                     <div>Leading<i>/</i>Won</div>
+                                 </div>
+
+                                                                                                                                    <div class="pr-row">
+                                     <div>BJP</div>
+                                     <div>78</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>BJD</div>
+                                     <div>51</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>INC</div>
+                                     <div>14</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>IND</div>
+                                     <div>3</div>
+                                 </div>
+                                                                                                                                    <div class="pr-row">
+                                     <div>CPI(M)</div>
+                                     <div>1</div>
+                                 </div>
+                                                                                                                                    <div class="detail-btn">
+
+                                     <a href="partywiseresult-S18.htm">Details <i>></i></a>
+
+                                 </div>
+                                                              </div>
+                         </div>
+                     </a>
+             </div>
+         </div>
+                  
+     </div>
+ </div>
+
+ <!-- <h3 class="foot-title"><a href="https://results.eci.gov.in/AcResultByeDecNew2023/index.htm" class="btn btn-primary" target="_blank">Nagaland, Tapi (43) Bye Election Results Dec-2023 <span>&#10137;</span></a></h3> -->
+ </div><!-- End of container-fluid Div -->
+ <!-- <a href="statewiseS121.htm" style="width: 348px !important;" class="mob-btn">All Constituencies at a glance <i>&gt;</i></a>  -->
+     </main>
+    <footer class="footer">
+        <div class="foot-info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <h6 class="mb-1">Download Voter helpline app to see results on mobile</h6>
+                        <div class="sm-text">Last Updated at 08:55 am On 05/06/2024</div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <ul class="d-flex align-items-center items-end">
+                        <li><a href='https://play.google.com/store/apps/details?id=com.eci.citizen' target='_blank'><img src='img/icons/android.png' alt=''></a></li>
+                            <li><a href='https://apps.apple.com/in/app/voter-helpline/id1456535004' target='_blank'><img src='img/icons/apple.png' alt=''></a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src='js/jquery-3.6.4.min.js' type='text/javascript'></script>
+    <script src='js/jquery-3.1.1.min.js' type='text/javascript'></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <!-- Option 3: Custom jQuery Lab -->
+    <script src="js/custom-jQuery.js" type="text/javascript"></script>
+
+    <!-- Chart jQuery Lab -->
+    <script src="js/chart.js" type="text/javascript"></script>
+    </body>
+
+</html>
